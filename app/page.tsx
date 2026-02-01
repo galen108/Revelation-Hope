@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { Heart, Sun, Leaf, Shield, Home, Sparkles } from 'lucide-react';
 
 export default function RevelationHope() {
-    const [activeSection, setActiveSection] = useState(null);
+    const [activeSection, setActiveSection] = useState<number | null>(null);
     const [showFinal, setShowFinal] = useState(false);
 
     const sections = [
